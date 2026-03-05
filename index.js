@@ -66,7 +66,14 @@ function ordemNome(cliArr) {
     return cliArr.slice().sort((a, b) => a.getNome().localeCompare(b.getNome()))
 }
 
-let cliente1 = criarCliente('João', '11', '99999-9999', 'Rua A', '123', 'São Paulo', 'SP')
+let cliente1 = criarCliente(
+    'João',
+    '11',
+    '99999-9999',
+    'Rua A',
+    '123',
+    'São Paulo',
+    'SP')
 let cliente2 = criarCliente('Maria', '21', '98888-8888', 'Rua B', '456', 'Rio de Janeiro', 'RJ')
 let cliente3 = criarCliente('Ana', '31', '97777-7777', 'Rua C', '789', 'Belo Horizonte', 'MG')
 let cliente4 = criarCliente('Carlos', '41', '96666-6666', 'Rua D', '321', 'Curitiba', 'PR')
